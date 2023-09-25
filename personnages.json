@@ -1,0 +1,21 @@
+{
+    "personnage1": {
+        "pseudo": "Thibaut",
+        "niveau": 5,
+        "nbvie": 5,
+        "ini": 5
+    },
+    "guerrier1": {
+        "pseudo": "Guerrier1",
+        "niveau": 3,
+        "nbvie": 3,
+        "ini": 3
+    },
+    "mage1": {
+        "pseudo": "Mage1",
+        "niveau": 4,
+        "nbvie": 4,
+        "ini": 4,
+        "mana": 20
+    }
+}
