@@ -105,18 +105,34 @@ class personnage:
         while self.__nbvie > 0 and assaillant.__nbvie > 0:
             self.attaquer(assaillant)
     """
-        fonction qui permet au personnage d'attaquer
+        fonction qui permet de mener à la mort un des deux personnages
 
-        :param texte: attaque de personnage
+        :param texte: combat entre les deux personnages
         :type texte: str
-        :return: le résultat de l'attaque
+        :return: le résultat du combat
         :rtype: str
         """
     def soins(self):
         self.__nbvie = self.__niveau
+    """
+        fonction qui permet de soigner un des deux personnages
+
+        :param texte: soin d'un des deux personnages
+        :type texte: int
+        :return: le nombre de pt de soin donné
+        :rtype: str
+        """
 
     def degats(self):
         return self.__niveau
+    """
+        fonction qui permet de mener à la mort un des deux personnages
+
+        :param texte: combat entre les deux personnages
+        :type texte: str
+        :return: le résultat du combat
+        :rtype: str
+        """
 
     # Programme principal pour tester la classe Personnage
 if __name__ == "__main__":
